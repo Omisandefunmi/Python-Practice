@@ -1,0 +1,12 @@
+{
+    "name":"Adeola",
+    "age":21,
+    "1":"birthday",
+    "hobby":[
+        1,
+        2,
+        3,
+        4
+    ],
+    "bool":true
+}
