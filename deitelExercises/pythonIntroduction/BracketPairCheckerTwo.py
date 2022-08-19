@@ -1,5 +1,4 @@
 
-
 def bracket_pair_check(brackets):
     stack = []
     for bracket in brackets:
@@ -44,34 +43,40 @@ def func2():
         print(num)
     print(num)
 
-#Arbitrary Arguments
+
+# Arbitrary Arguments
 
 def add(* numbers):
     total = 0
     for num in numbers:
         total += num
     return total
-print(add(7,8,99,56,87,3,0,1,4))
-#or
+print(add(7 ,8 ,99 ,56 ,87 ,3 ,0 ,1 ,4))
+
+
+# or
 
 def add(*numbers):
     return sum(numbers)
-print(add(7,8,99,56,87,3,0,1,4))
+print(add(7 ,8 ,99 ,56 ,87 ,3 ,0 ,1 ,4))
 
-#or
+
+# or
 def add(* numbers):
     total = 0
     for num in numbers:
         total += num
     return total
-print(add(*[7,8,99,56,87,3,0,1,4]))
-#or
+print(add(*[7 ,8 ,99 ,56 ,87 ,3 ,0 ,1 ,4]))
+
+
+# or
 def add(* numbers):
     total = 0
     for num in numbers:
         total += num
     return total
-lst = [7,8,99,56,87,3,0,1,4]
+lst = [7 ,8 ,99 ,56 ,87 ,3 ,0 ,1 ,4]
 print(add(*lst))
 
 def dict_pack_unpack(**kwargs):
